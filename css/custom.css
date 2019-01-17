@@ -1,0 +1,405 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+                    /*---------------LOGIN PAGE START-----------------*/
+.login-pic
+{
+    margin-left: 39px;
+    margin-bottom: 10px;
+    width: 72%;
+}
+.login-form {
+		width: 385px;
+		margin: 135px auto;
+	}
+    .login-form form {        
+    	margin-bottom: 15px;
+        background:#09090966;
+        box-shadow: 0 0 4px 0px;
+
+        padding: 30px;
+    }
+    .login-form h2 {
+        margin: 0 0 55px;
+        color: #ffffff;
+    }
+    .form-control, .login-btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .input-group-addon .fa {
+        font-size: 18px;
+    }
+    .login-btn {
+        font-size: 15px;
+        font-weight: bold;
+    }
+	.social-btn .btn {
+		border: none;
+        margin: 10px 3px 0;
+        opacity: 1;
+	}
+    .social-btn .btn:hover {
+        opacity: 0.9;
+    }
+	.social-btn .btn-primary {
+        background: #507cc0;
+    }
+	.social-btn .btn-info {
+		background: #64ccf1;
+	}
+	.social-btn .btn-danger {
+		background: #df4930;
+	}
+    .or-seperator {
+        margin-top: 20px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    .or-seperator i {
+        padding: 0 10px;
+        background: #f7f7f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    } 
+    .login-form .form-control
+    {
+        background: transparent;
+        border: none;
+    }
+    .login-form .input-group
+    {
+        background: transparent;
+        border: solid 1px #6b6868;
+        border-radius: 5px;
+    }
+    .login-form .form-group
+    {
+         margin-bottom:30px;
+    }
+    .login-form .btn-primary
+     {
+    color: #fff;
+    background-color: #cd1a3c;
+    border-color: #c31327;
+    padding: 25px;
+    }
+    .login-form .btn-primary:hover
+     {
+    color: #000;
+    background-color: #1fa3af66;
+    border-color: #1fa3aa;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    }
+    .login-form .input-group-addon
+    {
+        border:none;
+        background: #fff9;
+    }
+    .login-form .form-control
+    {
+        color: #ffffff;
+    }
+    
+   
+    /*-----------LOGIN PAGE END-----------*/
+
+
+.navbar-header img
+{
+    width: 140px;
+    margin-left: 191px;
+}
+.navbar-default
+{
+	background-color: transparent;
+	border: none;
+}
+.navbar
+{
+	z-index: 1;
+	margin-bottom: o;
+
+	margin-top: 10px;
+}
+.navbar-default .navbar-brand
+{
+	color:orange;
+}
+.navbar-brand
+{
+	font-size: 24px;
+	font-weight: 700;
+}
+.navbar-brand img
+{
+    width: 110px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.navbar-default .navbar-nav > li > a
+{
+    color: #000;
+    font-size: 17px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover
+{
+
+    color: #fffafa;
+    background-color: #af1f1f;
+}
+.slider-outer
+{
+	position: absolute;
+	top: 0;
+}
+ .nav-center
+ {
+    margin-left: 170px;
+ }
+
+
+/*----------------ADD PRODUCT PAGE START----------------*/
+
+.add-product-outer
+{
+    background: url('../images/pic7.png');
+    background-size: cover;
+    padding: 50px 0 0 0;
+    height: 1200px;
+}
+.add-product-form
+{
+    
+    text-align: center;
+
+}
+.add-product-form .col-sm-10
+{
+    margin-bottom: 35px;
+}
+.add-product-outer .text-center
+{
+    margin-bottom: 50px;
+    color: #af1f1f;
+}
+.add-product-form .form-control
+{
+    border-style: none;
+    box-shadow: 0 0 0 0;
+}
+.add-product-form .btn-primary
+{
+    background-color: #af1f1f;
+    border-color: #af1f1f;
+}
+.add-product-form .btn-primary:hover
+{
+   border-color: #af1f1f;
+   color: #af1f1f;
+   background-color: transparent;
+}
+.add-product-form .btn
+{
+    border-radius: 2px;
+}
+.edit-pic
+{
+    position: absolute;
+    right: 27%;
+    max-width: 200px;
+}
+.thumbnail
+{
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+.video-thumb
+{
+    height: auto;
+}
+/*-----------------ADD PRODUCT PAGE END--------------------*/
+
+
+/*------------GET INVOICE PAGE START---------------*/
+
+.get-table .img-thumbnail
+{
+    width: 10%;
+    cursor: pointer;
+}
+
+#table-invoice, .total
+{
+    display: none;
+}
+.add-pic
+{
+    background: transparent;
+}
+.pic-up img
+{
+    max-width: 100px
+}
+.total span
+{
+    margin-left: 10px;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th
+{
+    border: 1px solid #621717;
+}
+.table-bordered
+{
+    border: 1px solid #621717;
+}
+
+
+.pic-name
+{
+    position: absolute;
+    font-size: 25px;
+    top: 45px;
+    left: 98px;
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+.pic-effect::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#0009;
+}
+a.pic-effect:hover
+ {
+    border-color: #337ab7;
+    transform: scale(2);
+    transition: .5s;
+    z-index: 10;
+}
+a.pic-effect:hover .pic-name
+{
+    display: none;
+}
+a.pic-effect:hover::before
+{
+    background-color: transparent;
+}
+.cot-name
+{
+    
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 196px;
+    margin-top: 40px;
+    color: #ed556a;
+}
+.col-space
+{
+    
+    margin-top: 43px;
+}
+.get-out
+{
+    
+    border: solid 1px;
+    padding: 20px;
+    background-color: #f0f8ff66;
+    margin-bottom: 20px;
+}
+.get-outin
+{
+    
+    border: solid 1px;
+    padding: 20px;
+    background-color: #f0f8ff66;
+    margin-top: 30px;
+}
+.get-outer
+{
+    border:solid 1px;
+    margin-top: 120px;
+}
+.add-1
+{
+    margin-bottom: 10px;
+}
+.add-area
+{
+    
+    width: 81%;
+    /*! margin-left: 183px; */
+    border: none;
+    border-radius: 3px;
+}
+.add-area1
+{
+    
+    width: 81%;
+    /*! margin-left: 183px; */
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+}
+.view-re
+{
+    margin-bottom: 20PX;
+}
+/*------------GET INVOICE PAGE END--------------*/
+
+@media(max-width:1272px)
+{
+    .navbar-toggle
+    {
+      
+    }
+    .navbar-brand img
+    {
+        margin-left: 0px;
+    }
+    .navbar-default .navbar-nav > li > a
+    {
+        font-size: 15px;
+    }
+    .navbar-nav > li > a
+    {
+        padding: 12px 9px;
+    }
+}
+
+@media(max-width: 950px)
+{
+     .navbar-default .navbar-nav > li > a
+    {
+        font-size: 13px;
+    }
+    .navbar-nav > li > a
+    {
+        padding: 11px 7px;
+    }
+}
+
+@media(max-width: 850px)
+{
+    .navbar-default .navbar-nav > li > a
+    {
+        font-size: 12px;
+    }
+    .navbar-nav > li > a
+    {
+        padding: 9px 5px;
+    }
+}
