@@ -1,2 +1,0 @@
-# cottage-indication
-cottage-indication
